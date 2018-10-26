@@ -12,7 +12,6 @@ function calcularSaida() {
   var cargaHoraria1 = "5:45";
   var cargaHoraria2 = "8:00";
   var batidas = $("#batidas").find("td");
-  console.log(batidas.length)
 
   if (batidas.length >= 3) {
     var batida1 = batidas[0].textContent.split(" ")[1];
